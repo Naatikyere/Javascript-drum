@@ -1,0 +1,42 @@
+*, ::before, ::after{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: url(background.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.drum{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.keys{
+    height: 5em;
+    text-align: center;
+    width: calc(6.3em - 1em);
+    margin: 0.5em;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.L{
+    font-size: 3em;
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    }
+    .s{
+        color: rgb(246, 246, 131);
+    }
+    .lights{
+        border: 5px solid rgb(249, 249, 151);
+        transform: scale(0.5);
+    }
